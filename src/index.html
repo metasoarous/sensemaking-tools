@@ -137,10 +137,12 @@
               <p class="glue-body--large app-body--large">
               Sensemaking is a suite of AI tools designed to help policymakers gather and understand public opinion at scale –
               quickly. By combining the power of AI interviewing and automated report generation features, we bridge the gap between individual voices and actionable policy insights.</p>
-              <p class="app-headline glue-headline glue-headline--headline-5 glue-text-center">
-                <span class="glue-font-weight-medium">Are you a policymaker or public official interested in using Sensemaking AI?<br/>Please send us an email at
-                <a class="app-link-font-weight-medium glue-font-weight-medium" href="mailto:sensemaking-interest@google.com">sensemaking-interest@google.com</a>
+              <p class="app-headline glue-headline glue-headline--headline-5 glue-text-center glue-spacer-3-bottom">
+                <span class="glue-font-weight-medium">Are you a policymaker or public official interested in using Sensemaking AI?</span>
               </p>
+              <button type="button" class="use-sensemaking__cta-btn glue-button glue-button--medium-emphasis" data-modal-trigger data-modal-target="contact-modal">
+                Get in touch
+              </button>
             </div>
           </div>
         </div>
@@ -189,22 +191,29 @@
             class="glue-spacer-5-bottom glue-text-center glue-headline app-headline glue-headline--headline-4 app-headline--headline-4">
             How it Works</h2>
           <ul class="glue-grid glue-cards glue-text-center app-core-capabilities-cards">
-            <li class="glue-grid__col glue-grid__col--span-4 glue-grid__col--span-6-md app-core-capabilities-card">
+            <li class="glue-grid__col glue-grid__col--span-3 glue-grid__col--span-6-md app-core-capabilities-card">
               <img class="app-core-capabilities-card__image" src="assets/images/dig_deeper.svg" alt="" loading="lazy" />
               <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5">Dig Deeper</h3>
               <p>Help participants explore the “why” behind their thoughts and opinions with adaptive interviewing – personalized, AI-generated follow up questions.</p>
             </li>
-            <li class="glue-grid__col glue-grid__col--span-4 glue-grid__col--span-6-md app-core-capabilities-card">
+            <li class="glue-grid__col glue-grid__col--span-3 glue-grid__col--span-6-md app-core-capabilities-card">
               <img class="app-core-capabilities-card__image" src="assets/images/extract_themes.svg" alt="" loading="lazy" />
               <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5">Extract Key Themes</h3>
               <p>
                Quickly categorize open-ended input into topics and opinions that capture the nuance of the conversation, then translate the major themes into easy-to-read summaries.
               </p>
             </li>
-            <li class="glue-grid__col glue-grid__col--span-4 glue-grid__col--span-6-md app-core-capabilities-card">
+            <li class="glue-grid__col glue-grid__col--span-3 glue-grid__col--span-6-md app-core-capabilities-card">
               <img class="app-core-capabilities-card__image" src="assets/images/uncover_hidden_consensus.svg" alt="" loading="lazy" />
               <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5">Uncover Hidden Consensus</h3>
               <p>Generate novel statements and identify those likely to receive broad agreement based on participants’ prior input.</p>
+            </li>
+            <li class="glue-grid__col glue-grid__col--span-3 glue-grid__col--span-6-md app-core-capabilities-card">
+              <img class="app-core-capabilities-card__image" src="assets/images/dynamic_insights.svg" alt="" loading="lazy" />
+              <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5">Surface Dynamic Insights
+              </h3>
+              <p>Generate novel statements and identify those likely to receive broad agreement based on participants’ prior input.
+              </p>
             </li>
           </ul>
         </div>
@@ -331,16 +340,39 @@
                         </ul>
                         <ul class="app-carousel__slide-links">
                           <li class="app-carousel__slide-links-item">
-                            <a href="https://www.youtube.com/watch?v=fMwy1N7eSZg" class="app-carousel__slide-link app-link-font-weight-medium glue-font-weight-medium" rel="noopener noreferrer" target="_blank">What we did</a>
+                            <a href="https://napolitaninstitute.org/Oklahoma%27s%20America%20Dream.html"
+                              class="app-carousel__slide-link app-link-font-weight-medium glue-font-weight-medium" rel="noopener noreferrer"
+                              target="_blank">Explore the report</a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="glue-grid__col glue-grid__col--span-6 glue-grid__col--span-12-md glue-grid__col--align-middle glue-order-2 glue-grid__col--align-middle glue-order-1-md glue-order-1-sm">
-                      <div class="app-carousel__media">
-                        <img alt="" src="assets/images/oklahoma.webp" loading="lazy" />
-                        <div class="app-carousel__media-caption">Governor Kevin Stitt, Oklahoma</div>
-                      </div>
+                    <div
+                      class="glue-grid__col glue-grid__col--span-6 glue-grid__col--span-12-md glue-grid__col--align-middle glue-order-2 glue-order-1-md glue-order-1-sm">
+                      <div class="glue-video">
+                        <div class="glue-video__preview-container glue-video__preview-container--inline g-no-border">
+                          <div class="app-carousel__media">
+                            <picture class="glue-video__preview">
+                              <img class="glue-video__preview-image" alt="" src="assets/images/oklahoma.webp" loading="lazy" />
+                            </picture>
+                            <div class="app-carousel__media-caption">Governor Kevin Stitt, Oklahoma</div>
+                            </div>
+                          <div class="glue-video__info">
+                            <div class="app-carousel__video-play-button-container">
+                              <svg class="app-carousel__video-play-button glue-icon glue-video__play-button glue-video__play-button--white"
+                                role="presentation">
+                                <use href="assets/images/glue-icons.svg#play-button"></use>
+                              </svg>
+                            </div>
+                            <div class="glue-video__label-container">
+                              <p
+                                class="glue-headline glue-headline--headline-3 glue-video__label glue-video__label--small glue-video__label--light">
+                                Watch the film</p>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="glue-video__container glue-video__container--inline" data-glue-yt-video-vid="fMwy1N7eSZg"></div>
+                          </div>
                     </div>
                   </div>
                 </div>
@@ -355,35 +387,76 @@
         <div class="glue-page">
           <div class="use-sensemaking__content glue-grid">
             <div class="glue-grid__col glue-grid__col--span-12">
-              <h2 class="use-sensemaking__headline glue-spacer-5-bottom glue-headline app-headline glue-headline--headline-4 app-headline--headline-4">Want to Use Sensemaking AI?</h2>
+              <h2
+                class="use-sensemaking__headline glue-spacer-5-bottom glue-headline app-headline glue-headline--headline-4 app-headline--headline-4">
+                Our Partner Program</h2>
             </div>
             <div class="use-sensemaking__content-column use-sensemaking__content-column--left glue-grid__col glue-grid__col--span-6 glue-grid__col--span-12-md">
-              <p class="glue-body--large app-body--large">
-                We have open sourced our Sensemaking code and encourage developers to explore our
-                <a href="https://github.com/Jigsaw-Code/sensemaking-tools/" class="app-link--icon-right" rel="noopener noreferrer" target="_blank" aria-label="Library on Github">
-                  library on Github
-                  <svg role="presentation" aria-hidden="true" class="app-icon glue-icon glue-icon--open-in-new">
-                    <use href="assets/images/glue-icons.svg#open-in-new"></use>
-                  </svg> </a
-                >.
+              <p class="glue-body--xlarge app-body--xlarge">
+                While <a href="https://github.com/Jigsaw-Code/sensemaking-tools" target="_blank" rel="noopener noreferrer">our
+                  Sensemaking AI code is freel and open sourced</a>, we know that local governments and civic organizations don’t
+                always
+                have the time, technical tools, or participant panels needed to run large-scale AI consultations on their own.
+              </p>
+              <p class="glue-body--xlarge app-body--xlarge">
+                Through our new <strong>Jigsaw Partner Program (JPP)</strong>, we connect public leaders with trusted civic technology
+                platforms and
+                philanthropic grant funding.
               </p>
             </div>
             <div class="use-sensemaking__content-column use-sensemaking__content-column--right glue-grid__col glue-grid__col--span-6 glue-grid__col--span-12-md">
-              <p class="glue-body--large app-body--large">Sensemaking AI is also available through our technology partners, as part of their polling or public deliberation offerings. As we onboard new partners, we will update this site.</p>
+              <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5 glue-spacer-1-bottom">How It
+                Works</h3>
+              <p class="glue-body--large app-body--large">Our platform partners handle the entire process from start to finish, so
+                leaders can focus on using the insights:</p>
+              <ul class="glue-no-bullet use-sensemaking__list">
+                <li class="glue-spacer-1-bottom"><strong>Participant Recruitment:</strong> They recruit balanced, representative
+                  panels or run broad public
+                  outreach to ensure all community voices are heard.</li>
+                <li class="glue-spacer-1-bottom"><strong>Custom Engagement Design:</strong> They help design questions tailored to
+                  your specific policy decisions,
+                  such as budgeting, housing, or long-term planning.</li>
+                <li class="glue-spacer-1-bottom"><strong>Built-in Sensemaking AI:</strong> They run the consultation using Jigsaw’s AI
+                  features, including
+                  personalized follow-up questions, automated theme extraction, and hidden consensus detection.</li>
+                <li class="glue-spacer-1-bottom"><strong>Moderation and Privacy:</strong> They ensure secure, private data handling
+                  and filter out bad actors,
+                  spam, and toxic comments.</li>
+                <li><strong>Actionable Reports:</strong> They deliver clear, interactive summaries and briefings that are ready to
+                  share with councils and the public.</li>
+              </ul>
               <div class="use-sensemaking__logos">
-                <a href="https://www.rmgresearch.com/" rel="noopener noreferrer" target="_blank">
-                  <img class="use-sensemaking__logo" alt="rmg research inc" src="assets/images/rmg.svg" loading="lazy" />
+                <a href="https://www.change.org/" rel="noopener noreferrer" target="_blank">
+                  <img class="use-sensemaking__logo" alt="Change Dot Org" src="assets/images/change.svg" loading="lazy" />
                 </a>
                 <a href="https://make.org/US" rel="noopener noreferrer" target="_blank">
                   <img class="use-sensemaking__logo" alt="make.org" src="assets/images/make-org.svg" loading="lazy" />
                 </a>
+                <a href="https://www.rmgresearch.com/" rel="noopener noreferrer" target="_blank">
+                  <img class="use-sensemaking__logo" alt="rmg research inc" src="assets/images/rmg.svg" loading="lazy" />
+                </a>
               </div>
             </div>
-            <div class="glue-grid__col glue-grid__col--span-12 g-spacer-padding-6-top">
-              <p class="app-headline glue-headline glue-headline--headline-5 glue-text-center">
-                <span class="glue-font-weight-medium">Are you a policymaker or public official interested in using Sensemaking AI?<br/>Please send us an email at
-                <a class="app-link-font-weight-medium glue-font-weight-medium" href="mailto:sensemaking-interest@google.com">sensemaking-interest@google.com</a>
+            <div class="glue-grid__col glue-grid__col--span-12 g-spacer-padding-6-top glue-text-center">
+              <h3 class="glue-headline app-headline glue-headline--headline-5 app-headline--headline-5 glue-spacer-1-bottom">Bring
+                Sensemaking AI to Your Community</h3>
+              <p class="glue-body--xlarge app-body--large glue-spacer-3-bottom">
+                Are you a policymaker or public official interested in using Sensemaking AI?
               </p>
+              <button type="button" class="use-sensemaking__cta-btn glue-button glue-button--medium-emphasis" data-modal-trigger
+                data-modal-target="contact-modal">
+                Get in touch
+              </button>
+              </div>
+              <div class="glue-modal app-modal" id="contact-modal" aria-label="Contact form">
+                <div class="app-modal__dialog">
+                  <button class="glue-modal__close-btn app-modal__close-btn" aria-label="Close the modal"></button>
+                  <div class="glue-modal__content-wrapper app-modal__content-wrapper">
+                    <iframe
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSc2ccWlazEGpc1e-2Y0eqyfTM-Q0fmiEmwazzKU6Ble5VpSng/viewform?embedded=true"
+                      width="640" height="2309" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
